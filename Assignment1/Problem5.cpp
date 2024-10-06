@@ -2,13 +2,12 @@
 #include <iostream>
 using namespace std;
 
-// As long as k is an even number, you can continuously divide k by 2 until it can no longer be divided by 2. If the final result is 1, it indicates that k has been completely divisible by 2 all along, meaning that k is a power of two.
 bool isPowerOfTwo(int k) {
-    if (k <= 0) return false;
+    if (k <= 0) return false; // Since powers of 2 can only be positive integers, negative numbers and 0 cannot be powers of 2.
     while (k % 2 == 0) {
         k /= 2;
-    }
-    return k == 1;
+    } // Check if k is divisible by 2. If k can be divided by 2, divide k by 2 and continue the loop until k is no longer divisible by 2
+    return k == 1; // If k is eventually equal to 1, it means it is a power of 2, because a power of 2 can be reduced to 1 by continuously dividing by 2.
 }
 
 int main(){
