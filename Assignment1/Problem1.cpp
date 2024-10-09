@@ -27,9 +27,10 @@ int reverseInteger(int num){
 
 int main() {
   int input;
-  cout << "Please input an integer:";
+  // cout << "Please input an integer:";
   cin >> input;
 
   int output = reverseInteger(input);
-  cout << "The reversed integer is: " << output << endl;
+  // cout << "The reversed integer is: " << output << endl;
+  cout << output << endl;
 }

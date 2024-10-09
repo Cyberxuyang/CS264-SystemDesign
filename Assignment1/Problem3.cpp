@@ -24,7 +24,7 @@ bool isPalindrome(int x){
 
 int main(){
   int num;
-  cout << "Please input an integer: ";
+  // cout << "Please input an integer: ";
   cin >> num;
 
   if (isPalindrome(num)){

@@ -23,10 +23,11 @@ int calculateGcd(int num1, int num2){
 int main() {
   int fisrtInput;
   int secondInput;
-  cout << "Please input the first integer: ";
+  // cout << "Please input the first integer: ";
   cin >> fisrtInput;
-  cout << "Please input the second integer: ";
+  // cout << "Please input the second integer: ";
   cin >> secondInput;
   int output = calculateGcd(fisrtInput, secondInput);
-  cout << "The greatest common divisor of two integers is: " << output << endl;
+  // cout << "The greatest common divisor of two integers is: " << output << endl;
+  cout << output << endl;
 }

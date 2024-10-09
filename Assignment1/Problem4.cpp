@@ -38,14 +38,15 @@ double pow(double base, int exponent){
 }
 
 int main(){
-  double base;
+  double base; 
   int exponent;
-  cout << "Please input the base: ";
+  // cout << "Please input the base: ";
   cin >> base;
-  cout << "Please input the exponent: ";
+  // cout << "Please input the exponent: ";
   cin >> exponent;
 
-  cout << " The result is: " << pow(base, exponent) << endl;
+  // cout << " The result is: " << pow(base, exponent) << endl;
+  cout << pow(base, exponent) << endl;
 
   return 0;
 }

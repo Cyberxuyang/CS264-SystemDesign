@@ -12,7 +12,7 @@ bool isPowerOfTwo(int k) {
 
 int main(){
   int k;
-  cout << "Please input an integer: ";
+  // cout << "Please input an integer: ";
   cin >> k;
   if (isPowerOfTwo(k)){
     cout << "true" << endl;
